@@ -6,7 +6,7 @@
 }
 /*Doc colors*/
 :root {
-    --primary-color: #fce138;
+    --primary-color: #78d3da;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
 }
@@ -19,8 +19,8 @@ body {
 
 /*Applying styles to <header> */
 header {
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    padding: 20px 35px 20px 0px;
+    background-color: rgb(58, 56, 56);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -40,15 +40,19 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--primary-color);
+    color: rgb(58, 56, 56);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 10px 75px;
 }
 
 /*Applying styles to all "a" elements in the header section */
 header a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.title-color {
+    color: rgb(58, 56, 56);
 }
 
 /*Applying styles to "nav" element in the header section */
@@ -62,6 +66,10 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+.bottom-border {
+    border-bottom: 3px solid var(--primary-color);
 }
 
 /*Applying specific style to "nav"'s "a" elements in the header section */

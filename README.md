@@ -2,19 +2,18 @@
 
 ## Challenge Description
 
-This challenge, assigned by Rutgers Coding Bootcamp, requires the creation of an online portfolio. The goal of this activity is to create a portfolio of work that can be given to employers to showcase talents and skills.
+This challenge, assigned by Rutgers Coding Bootcamp, required the creation of an online portfolio. The goal of this activity wass to create a portfolio of work that can be given to employers to showcase talents and skills.
 
 ## Built With
 * HTML
 * CSS
 
 ## Website Screenshots
-[//]: # (NEED TO UPDATE THESE SCREENSHOTS!!)
-![Top of website: Header & Hero](https://user-images.githubusercontent.com/81491306/116012668-eb6a8b00-a5f9-11eb-93a3-3462a844d6a5.jpg)
+![Top of website: Header, Hero & About Me Sections](https://user-images.githubusercontent.com/81491306/116825789-c1b3e580-ab5e-11eb-9913-079196a6c6b6.JPG)
 
-![Middle of website: SEO, Online Rep Management, Lead Generation & Brand Awareness](https://user-images.githubusercontent.com/81491306/116012683-0e953a80-a5fa-11eb-856d-d91af56787a6.jpg)
+![Middle of website: Work Section](https://user-images.githubusercontent.com/81491306/116825702-52d68c80-ab5e-11eb-8ddd-03c4f30ad2f0.JPG)
 
-![Bottom of website: Social Media Marketing, Cost Management & Footer](https://user-images.githubusercontent.com/81491306/116012698-32588080-a5fa-11eb-9b6a-ce451e744df3.jpg)
+![Bottom of website: Contact Me Section](https://user-images.githubusercontent.com/81491306/116825710-6124a880-ab5e-11eb-8b61-47035fa02db4.JPG)
 
 # About Me
 I am a Systems Engineer working at a medical device company. Currently, working on device design and development, actively learning about the software side of the process.

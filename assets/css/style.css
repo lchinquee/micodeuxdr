@@ -17,7 +17,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-family: Helvetica, Arial, sans-serif;  
 }
 
 header h1 {
@@ -59,9 +58,26 @@ header nav ul li a:hover {
 /*Header Style End*/
 
 /*Defining color and font for the body of index.html */
-/*body {
-    color: var(--primary-color);
+body {
+    color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;  
-}*/
-
+}
 /*Body Style End*/
+
+/*Hero Style Start*/
+.hero {
+    background-image: url(../images/hero.jpg);
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero h2 {
+    background-color: var(--primary-color);
+    display: inline;
+    padding: 5px 10px;
+    position: absolute;
+    margin-left: 80%;
+}
+/*Hero Style End*/

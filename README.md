@@ -28,4 +28,5 @@ I am a Systems Engineer working at a medical device company. Currently, working 
 
 # References
 [//]: # (NEED TO UPDATE RESOURCES!!)
-Rutgers Coding Bootcamp class materials and TA resources.
+1. Rutgers Coding Bootcamp class materials and TA resources.
+2. Hero Background Image: [https://unsplash.com/backgrounds/colors/gradient](https://unsplash.com/backgrounds/colors/gradient)

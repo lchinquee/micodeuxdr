@@ -8,7 +8,30 @@
 :root {
     --primary-color: #78d3da;
     --secondary-color: rgb(58, 56, 56);
+    --tertiary-color: rgb(69, 69, 112);
 }
+
+/*Defining color and font for the body of index.html */
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;  
+    background-color: rgb(212, 212, 230);
+}
+
+.section-title {
+    font-size: 48px;
+    color: var(--tertiary-color);
+    border-right: 3px solid;
+    padding: 5px 10px;
+    text-align: right;
+    margin: 20px 20px 20px auto;
+    width: 75%;
+}
+
+.font-color {
+    color: var(--tertiary-color);
+}
+/*Body Style End*/
 
 /*Header Style Start*/
 header {
@@ -57,17 +80,10 @@ header nav ul li a:hover {
 }
 /*Header Style End*/
 
-/*Defining color and font for the body of index.html */
-body {
-    color: var(--secondary-color);
-    font-family: Helvetica, Arial, sans-serif;  
-}
-/*Body Style End*/
-
 /*Hero Style Start*/
 .hero {
     background-image: url(../images/hero.jpg);
-    padding: 60px;
+    padding: 80px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -81,3 +97,22 @@ body {
     margin-left: 80%;
 }
 /*Hero Style End*/
+
+/*About Me Style Start*/
+.flex-aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me-title {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items:; */
+}
+
+.about-me-info {
+    flex: 15;
+    margin: auto 75px auto 0px;
+}
+/*About Me Style End*/

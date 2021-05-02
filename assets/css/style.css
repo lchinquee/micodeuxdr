@@ -211,6 +211,41 @@ header nav ul li a:hover, .contact nav ul li a:hover {
     font-size: x-small;
     color: var(--tertiary-color);
 }
+
+.rb-content:hover {
+    background: url(../images/run-buddy.jpg);
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+}
+
+.led-content:hover {
+    background: url(../images/led.jpg);
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+}
+
+.calc-content:hover {
+    background: url(../images/calc.jpg);
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+}
+
+.pzl-content:hover {
+    background: url(../images/puzzle.jpg);
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+}
+
+.surf-content:hover {
+    background: url(../images/surf.jpg);
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+}
 /*Work Style End*/
 
 /*Contact Me Style Start*/
@@ -231,3 +266,20 @@ header nav ul li a:hover, .contact nav ul li a:hover {
     color: var(--tertiary-color);
 }
 /*Contact Me Style End*/
+
+/*MEDIA QUERIES*/
+/*Media query for small desktop screens and smaller*/
+@media screen and (max-width: 980px) {
+   
+}
+
+/*Media query for tablets and smaller*/
+@media screen and (max-width:768px) {
+    
+ }
+ 
+ /*Media query for mobile phones and smaller*/
+ @media screen and (max-width: 575px) {
+    
+ }
+ /*MEDIA QUERIES END*/

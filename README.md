@@ -2,7 +2,7 @@
 
 ## Challenge Description
 
-This challenge, assigned by Rutgers Coding Bootcamp, required the creation of an online portfolio. The goal of this activity wass to create a portfolio of work that can be given to employers to showcase talents and skills.
+This challenge, assigned by Rutgers Coding Bootcamp, required the creation of an online portfolio. The goal of this activity was to create a portfolio of work that can be given to employers to showcase talents and skills.
 
 ## Built With
 * HTML

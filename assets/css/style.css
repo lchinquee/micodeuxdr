@@ -19,7 +19,7 @@ body {
 }
 
 .section-title {
-    font-size: 48px;
+    font-size: 36px;
     color: var(--tertiary-color);
     border-right: 3px solid;
     padding: 5px 10px;
@@ -60,7 +60,7 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul {
+header nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -73,7 +73,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-header nav ul li a:hover {
+header nav ul li a:hover, .contact nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 10px;
@@ -99,20 +99,39 @@ header nav ul li a:hover {
 /*Hero Style End*/
 
 /*About Me Style Start*/
-.flex-aboutme {
+.flex-aboutme, .flex-contactme {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.about-me-title {
+.about-me-title, .contact-me-title {
     display: flex;
     flex-wrap: wrap;
-    /* align-items:; */
 }
 
-.about-me-info {
+.about-me-info, .contact nav {
     flex: 15;
     margin: auto 75px auto 0px;
 }
 /*About Me Style End*/
+
+/*Contact Me Style Start*/
+.contact {
+    padding: 20px 35px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact h2 {
+    margin: 20px 20px 20px 5px;
+}
+
+.contact nav ul {
+    display: flex;
+    list-style: none;
+}
+.contact nav ul li a {
+    padding: 10px 70px;
+    color: var(--tertiary-color);
+}
+/*Contact Me Style End*/

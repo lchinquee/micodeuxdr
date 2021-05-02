@@ -30,3 +30,4 @@ I am a Systems Engineer working at a medical device company. Currently, working 
 [//]: # (NEED TO UPDATE RESOURCES!!)
 1. Rutgers Coding Bootcamp class materials and TA resources.
 2. Hero Background Image: [https://unsplash.com/backgrounds/colors/gradient](https://unsplash.com/backgrounds/colors/gradient)
+3. Spotify Link to Kid Cudi's Spotify: [https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu](https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu)

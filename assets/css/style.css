@@ -39,6 +39,7 @@ header {
     background-color: rgb(58, 56, 56);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -83,7 +84,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 /*Hero Style Start*/
 .hero {
     background-image: url(../images/hero.jpg);
-    padding: 80px;
+    padding: 40px 100px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -94,36 +95,131 @@ header nav ul li a:hover, .contact nav ul li a:hover {
     display: inline;
     padding: 5px 10px;
     position: absolute;
-    margin-left: 80%;
+    margin: 18% 0% 15% 75%;
+}
+
+.hero img {
+    height: 30%;
+    width: 15%;
 }
 /*Hero Style End*/
 
 /*About Me Style Start*/
-.flex-aboutme, .flex-contactme {
+.flex-aboutme, .flex-contactme, .my-work, .flex-row, .flex-row2, .about-me-title, .contact-me-title, .work-title {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-.about-me-title, .contact-me-title {
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.about-me-info, .contact nav {
+.about-me-info, .contact nav, .flex-work {
     flex: 15;
     margin: auto 75px auto 0px;
 }
 /*About Me Style End*/
 
+/*Work Style Start*/
+.work-title {
+    margin: 0px 0px 0px 70px;
+    align-self: stretch;
+}
+
+.my-work h2 {
+    padding: 20px 25px 50px 0px;
+    margin: 0px 20px 0px auto;
+}
+
+.rb-content {
+    background-image: url(../images/run-buddy.jpg);
+    padding: 300px 100px 100px 0px;
+    background-size: cover;
+    display: flex;
+    background-position: bottom;
+    border: 3px solid var(--primary-color);
+    position: relative;
+    margin: 10px 0px;
+}
+
+.led-content, .calc-content, .pzl-content, .surf-content {
+    flex: 15;
+}
+
+.led-content {
+    background-image: url(../images/led.jpg);
+    padding: 100px 100px 100px 0px;
+    background-size: cover;
+    display: flex;
+    background-position: bottom;
+    border: 3px solid var(--primary-color);
+    position: relative;
+    margin: 10px 20px 10px 0px;
+}
+
+.calc-content {
+    background-image: url(../images/calc.jpg);
+    padding: 100px 100px 100px 0px;
+    background-size: cover;
+    display: flex;
+    background-position: bottom;
+    border: 3px solid var(--primary-color);
+    position: relative;
+    margin: 10px 0px;
+}
+
+.pzl-content {
+    background-image: url(../images/puzzle.jpg);
+    padding: 100px 100px 100px 0px;
+    background-size: cover;
+    display: flex;
+    background-position: bottom;
+    border: 3px solid var(--primary-color);
+    position: relative;
+    margin: 10px 20px 10px 0px;
+}
+
+.surf-content {
+    background-image: url(../images/surf.jpg);
+    padding: 100px 100px 100px 0px;
+    background-size: cover;
+    display: flex;
+    background-position: bottom;
+    border: 3px solid var(--primary-color);
+    position: relative;
+    margin: 10px 0px;
+}
+
+.rb-content div {
+    background-color: var(--primary-color);
+    padding: 10px;
+    position: absolute;
+    margin: 1% 80% 0% 0%;
+}
+
+.led-content div, .calc-content div, .pzl-content div, .surf-content div {
+    background-color: var(--primary-color);
+    padding: 10px;
+    position: absolute;
+    margin: 1% 80% 0% -0.25%;
+}
+
+.rb-content div h3 a, .led-content div h3 a, .calc-content div h3 a, .pzl-content div h3 a, .surf-content div h3 a {
+    color: var(--tertiary-color);
+}
+
+.rb-content a:link, .led-content a:link, .calc-content a:link, .pzl-content a:link, .surf-content a:link {
+    text-decoration: none;
+}
+
+.rb-content p, .led-content p, .calc-content p, .pzl-content p, .surf-content p {
+    font-size: x-small;
+    color: var(--tertiary-color);
+}
+/*Work Style End*/
+
 /*Contact Me Style Start*/
 .contact {
-    padding: 20px 35px 20px 0px;
     display: flex;
     flex-wrap: wrap;
 }
 .contact h2 {
-    margin: 20px 20px 20px 5px;
+    margin: 20px 20px 20px 6px;
 }
 
 .contact nav ul {

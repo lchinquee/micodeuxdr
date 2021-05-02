@@ -31,3 +31,8 @@ I am a Systems Engineer working at a medical device company. Currently, working 
 1. Rutgers Coding Bootcamp class materials and TA resources.
 2. Hero Background Image: [https://unsplash.com/backgrounds/colors/gradient](https://unsplash.com/backgrounds/colors/gradient)
 3. Spotify Link to Kid Cudi's Spotify: [https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu](https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu)
+4. Background Image for Run Buddy Content taken from Run Buddy classwork
+5. LED Content Background Image: [https://www.bmslights.com/indoor/led-strip-light](https://www.bmslights.com/indoor/led-strip-light)
+6. Calculator Content Background Image: [https://interestingengineering.com/the-best-ways-to-learn-how-to-code](https://interestingengineering.com/the-best-ways-to-learn-how-to-code)
+7. Pastel Puzzle Content Background Image: [https://www.printworksmarket.com/image/2905/pussel_dusk_closeup.jpg](https://www.printworksmarket.com/image/2905/pussel_dusk_closeup.jpg)
+8. Surf Report Content Background Image: [https://www.islesurfandsup.com/blog/what-size-longboard-should-i-get/](https://www.islesurfandsup.com/blog/what-size-longboard-should-i-get/)

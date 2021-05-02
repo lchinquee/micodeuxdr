@@ -10,35 +10,17 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <!--TO DO
-        AS AN employer I WANT to view a potential employee's deployed portfolio of work samples 
-        SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-        
-        ACCEPTANCE CRITERIA
-        GIVEN I need to sample a potential employee's previous work
-        WHEN I load their portfolio
-            THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-        WHEN I click one of the links in the navigation
-            THEN the UI scrolls to the corresponding section
-        WHEN I click on the link to the section about their work
-            THEN the UI scrolls to a section with titled images of the developer's applications
-        WHEN I am presented with the developer's first application
-            THEN that application's image should be larger in size than the others
-        WHEN I click on the images of the applications
-            THEN I am taken to that deployed application
+            
+        <!--ACCEPTANCE CRITERIA
         WHEN I resize the page or view the site on various screens and devices
             THEN I am presented with a responsive layout that adapts to my viewport
-        -->
-        
-        <!--
-            Sections: About Me, Work. Contact Me, Link: Resume
         -->
         
         <!--navigation-->
         <header>
             <h1>
                 ChinQuee
-            </h1>                        
+            </h1>                                  
             <nav>
                 <ul>                
                     <li>
@@ -62,6 +44,9 @@
             <h2>
                 Cool subtitle here!
             </h2>
+            <div>
+                <img src="./assets/images/profile-pic.jpg" alt="Leslie ChinQuee"/>
+            </div> 
         </section>
 
         <!--about me section-->
@@ -72,7 +57,7 @@
                         About Me
                     </h2>
                 </div>
-                <div class="flex-row font-color about-me-info">
+                <div class=" font-color about-me-info">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non corporis officia eius repellendus. Vel, delectus ab. Recusandae cumque doloremque commodi illum iusto, earum laborum, accusamus expedita, exercitationem adipisci odio reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, voluptatum reiciendis? Sint error quia incidunt natus repellendus voluptatem suscipit numquam qui est, deleniti voluptate, adipisci quaerat, reiciendis dignissimos vitae vero!
                     </p>
@@ -81,9 +66,74 @@
         </section>
         
         <!--work section-->
-        <section>
-
+        <section id="work" class="my-work">
+            <div class="work-title">
+                <h2 class="section-title">
+                    Work
+                </h2>
+            </div>
+            <div class="flex-work">
+                <div class="rb-content">
+                    <div>
+                        <h3>
+                            <a href="https://lchinquee.github.io/run-buddy/">Run Buddy</a>
+                        </h3>
+                        <p>
+                            HTML/CSS
+                        </p>
+                    </div>                    
+                </div>
+                <div class="flex-row">
+                    <div class="led-content">
+                        <div>
+                            <h3>
+                                <!--Will include link to LED Wall work-->
+                                <a href="">LED Wall</a>
+                            </h3>
+                            <p>
+                                Node/IoT
+                            </p>
+                        </div>                        
+                    </div>   
+                    <div class="calc-content">
+                        <div>
+                            <h3>
+                                <!--Will include link to Calculator work-->
+                                <a href="">Calculator</a>
+                            </h3>
+                            <p>
+                                React/JavaScript/CSS
+                            </p>
+                        </div>                        
+                    </div>
+                </div>   
+                <div class="flex-row2">
+                    <div class="pzl-content">
+                        <div>
+                            <h3>
+                                <!--Will include link to LED Wall work-->
+                                <a href="">Pastel Puzzles</a>
+                            </h3>
+                            <p>
+                                MERK Stack
+                            </p>
+                        </div>                        
+                    </div>   
+                    <div class="surf-content">
+                        <div>
+                            <h3>
+                                <!--Will include link to Calculator work-->
+                                <a href="">Surf Report</a>
+                            </h3>
+                            <p>
+                                MERN Stack
+                            </p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
         </section>
+
         <!--contact me section-->
         <section id="contact-me" class="contact font-color"> 
             <div class="flex-contactme">

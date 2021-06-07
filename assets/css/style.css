@@ -127,7 +127,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .rb-content {
-    background-image: url(../images/run-buddy.jpg);
+    background-image: url(../images/whats-for-dinner.JPG);
     padding: 300px 100px 100px 0px;
     background-size: cover;
     display: flex;
@@ -142,7 +142,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .led-content {
-    background-image: url(../images/led.jpg);
+    background-image: url(../images/coding-quiz.JPG);
     padding: 100px 100px 100px 0px;
     background-size: cover;
     display: flex;
@@ -175,7 +175,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .surf-content {
-    background-image: url(../images/surf.jpg);
+    background-image: url(../images/run-buddy.jpg);
     padding: 100px 100px 100px 0px;
     background-size: cover;
     display: flex;
@@ -213,14 +213,14 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .rb-content:hover {
-    background: url(../images/run-buddy.jpg);
+    background: url(../images/whats-for-dinner.JPG);
     background-size: cover;
     background-position: bottom;
     opacity: 0.5;
 }
 
 .led-content:hover {
-    background: url(../images/led.jpg);
+    background: url(../images/coding-quiz.JPG);
     background-size: cover;
     background-position: bottom;
     opacity: 0.5;
@@ -241,7 +241,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .surf-content:hover {
-    background: url(../images/surf.jpg);
+    background: url(../images/run-buddy.jpg);
     background-size: cover;
     background-position: bottom;
     opacity: 0.5;

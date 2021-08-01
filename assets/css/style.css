@@ -127,7 +127,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .rb-content {
-    background-image: url(../images/whats-for-dinner.JPG);
+    background-image: url(../images/what-i-had-for-dinner.JPG);
     padding: 300px 100px 100px 0px;
     background-size: cover;
     display: flex;
@@ -164,7 +164,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .pzl-content {
-    background-image: url(../images/puzzle.jpg);
+    background-image: url(../images/whats-for-dinner.JPG);
     padding: 100px 100px 100px 0px;
     background-size: cover;
     display: flex;
@@ -213,7 +213,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .rb-content:hover {
-    background: url(../images/whats-for-dinner.JPG);
+    background: url(../images/what-i-had-for-dinner.JPG);
     background-size: cover;
     background-position: bottom;
     opacity: 0.5;
@@ -234,7 +234,7 @@ header nav ul li a:hover, .contact nav ul li a:hover {
 }
 
 .pzl-content:hover {
-    background: url(../images/puzzle.jpg);
+    background: url(../images/whats-for-dinner.JPG);
     background-size: cover;
     background-position: bottom;
     opacity: 0.5;
